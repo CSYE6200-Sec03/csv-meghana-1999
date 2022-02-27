@@ -2,6 +2,7 @@ package edu.neu.csye6200;
 
 import java.util.ArrayList;
 import java.util.List;
+// Student class inherited from Person Class where Comparable interface implemented 
 
 public class Student extends Person implements Comparable<Student>{
 	public int student_ID;
@@ -81,6 +82,7 @@ public class Student extends Person implements Comparable<Student>{
 		}
 		return sl;
 	}
+	//Integer parsing conversion
 	private int convertint(String sn) {
 		int i=0;
 		try{
@@ -92,6 +94,7 @@ public class Student extends Person implements Comparable<Student>{
 		}
 		return i;
 	}
+	//Double pasrsing conversion
 	private double convertdouble(String sn) {
 		double i=0;
 		try{

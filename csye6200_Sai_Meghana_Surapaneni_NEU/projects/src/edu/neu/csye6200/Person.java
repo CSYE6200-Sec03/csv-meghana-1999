@@ -7,11 +7,12 @@ public class Person {
 	public String last_name;
 	public String parent_first_name;
 	public String parent_last_name;
-	
+	//Person Class with super() constructor
 	public Person() {
 		super();
 		
 	}
+	//Person constructor
 	public Person(int id, int age, String first_name, String last_name, String parent_first_name,
 			String parent_last_name) {
 		super();
