@@ -1,0 +1,21 @@
+## This assignment focuses on mainly 
+1. There are three main classes Student,Teacher,Person.
+In Person class we have created different different attributes:
+1. ID
+2. age
+3. first name
+4. last name
+5. Parent first name
+6. Parent last name
+
+From Person class we have inherited Student and Teacher where Student class have StudentID and GPA attributes and then Teacher class have hourlywage atrribute.
+
+In Student  class Comparable interface is implemented for sorting student list based on ID,StudentID, Last Name, First Name, GPA and then for sorting the
+comparable is demonstrated in school class where the state of student and Teacher class is demonstrated clearly.
+
+In FileUtil.java using BufferedReader the csv values inputed from a text file and using FileReader the values are copied into Student List .
+
+Using try-catch block the error handling is done.
+
+We have also demonstrated the parsing methods in Student class .
+
